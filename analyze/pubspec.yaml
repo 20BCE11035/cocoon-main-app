@@ -1,0 +1,15 @@
+name: cocoon_analyze
+description: Cocoon static analysis scripts
+publish_to: none
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  file: 7.0.0
+  path: 1.9.0
+  platform: 3.1.4
+
+dev_dependencies:
+  mockito: 5.4.4
+  test_api: 0.7.0
